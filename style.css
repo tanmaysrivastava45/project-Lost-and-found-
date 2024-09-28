@@ -43,6 +43,10 @@ header {
     background-color: #555;
 }
 
+.links{
+    color:#d30e0e;
+}
+
 /* Hero Section */
 .hero {
     background-color: #861bc4;
@@ -128,7 +132,7 @@ footer {
 
 /* Sign In and Sign Up Styles */
 form {
-    background: #fff;
+    background: #2a2929;
     border-radius: 10px;
     padding: 30px;
     max-width: 400px;
