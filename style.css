@@ -1,0 +1,190 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #171616;
+    color: #ebf1f2;
+}
+
+.logo{
+    background-image: url(lost\ and\ found\ logo.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+
+header {
+    background-color: #000000;
+    padding: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #861bc4;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta-btn {
+    background-color: #fff;
+    color: #007bff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Features Section */
+.features {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.feature {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature i {
+    font-size: 2em;
+    color: #007bff;
+}
+
+.feature h3 {
+    margin-top: 10px;
+    color: #000000;
+}
+
+.feature p {
+    color: #555;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Sign In and Sign Up Styles */
+form {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Eye Icon */
+.eye-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 45%;
+    transform: translateY(-50%);
+    color: #007bff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .feature-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

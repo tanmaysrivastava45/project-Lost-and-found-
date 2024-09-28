@@ -1,0 +1,13 @@
+.welcome-message {
+    display: none;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.visible {
+    display: block;
+    opacity: 1;
+}
